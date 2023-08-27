@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri May  5 19:06:45 2023
+# Process ID: 7908
+# Current directory: C:/Users/User/Downloads/Lab7/Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent22548 C:\Users\User\Downloads\Lab7\Lab7\Lab7.xpr
+# Log file: C:/Users/User/Downloads/Lab7/Lab7/vivado.log
+# Journal file: C:/Users/User/Downloads/Lab7/Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Downloads/Lab7/Lab7/Lab7.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source AU_7_seg_Sim.tcl
+close_sim

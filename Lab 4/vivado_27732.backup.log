@@ -1,0 +1,95 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Mar 26 15:15:26 2023
+# Process ID: 27732
+# Current directory: D:/Academic/Computer Organization and Digital Design/Labs/Lab 4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16816 D:\Academic\Computer Organization and Digital Design\Labs\Lab 4\Lab 4.xpr
+# Log file: D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/vivado.log
+# Journal file: D:/Academic/Computer Organization and Digital Design/Labs/Lab 4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Lab 4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+set_property top Decoder_2_to_4 [current_fileset]
+update_compile_order -fileset sources_1
+set_property needs_refresh false [get_runs synth_1]
+set_property needs_refresh false [get_runs impl_1]
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+[Sun Mar 26 15:16:29 2023] Launched synth_1...
+Run output will be captured here: D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Lab 4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 6
+[Sun Mar 26 15:20:55 2023] Launched impl_1...
+Run output will be captured here: D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Lab 4.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1714.457 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 1714.457 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:21 ; elapsed = 00:00:20 . Memory (MB): peak = 1796.617 ; gain = 891.582
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc]
+WARNING: [Vivado 12-584] No ports matched 'D0'. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D0'. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D1'. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D1'. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D2'. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D2'. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D3'. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'D3'. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Designutils 20-970] Unrecognized or unsupported command 'set_property PACKAGE_PIN W15 [get_ports {D4]]
+set_property IOSTANDARD LVCMOS33 [get_ports {D4}]
+set_property PACKAGE_PIN V15 [get_ports {D5}]
+set_property IOSTANDARD LVCMOS33 [get_ports {D5}]
+set_prop ... (truncated) ' found in constraint file. [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc:20]
+Finished Parsing XDC File [D:/Academic/Computer Organization and Digital Design/Labs/Lab 4/Basys3Labs.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 26 15:25:51 2023...
